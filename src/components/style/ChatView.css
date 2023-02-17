@@ -1,0 +1,84 @@
+.contextView h1 {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.contextView h2 {
+	font-size: x-large;
+	font-weight: 600;
+}
+
+.contextView p,
+.contextView ul {
+	font-size: large;
+}
+
+/* ########################### Chat Bubble ########################## */
+.chatBubble {
+	border-radius: 20px;
+	max-width: 70%;
+	min-width: 30%;
+	/* add breathing room between bubbles */
+	margin-bottom: 4px;
+	/*  handles line break for very long words */
+	overflow-wrap: break-word;
+	padding: 15px;
+}
+
+.chatBubbleContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.chatBubbleSenderLabel {
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 0.8rem;
+	padding-left: 12px;
+}
+
+.chatBubbleUser {
+	align-self: end;
+	background-color: lightskyblue;
+}
+
+.chatBubbleOther {
+	align-self: start;
+	background-color: #f1f1f1;
+}
+
+/* Baseline response options */
+.chatOptionBubble {
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: rgb(207, 233, 249);
+	/* background-color: pink; */
+	padding: 15px;
+	text-align: center;
+	cursor: pointer;
+	max-width: calc(90% / 3);
+}
+
+.instructionText {
+	font-style: italic;
+}
+
+/* ########################### Progress Bar ########################## */
+.progressDot {
+	border-radius: 100%;
+	border: 5px solid grey;
+	color: grey;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	cursor: default;
+}
+
+.doneDot {
+	background-color: rgb(111, 232, 51);
+}
+
+.inProgressDot {
+	background-color: rgba(164, 231, 179, 0.5);
+}

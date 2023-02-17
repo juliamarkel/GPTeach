@@ -1,0 +1,14 @@
+.textPage {
+  padding: 4em;
+}
+
+.textPage p {
+  font-size: x-large;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.textPage .italic {
+  font-style: italic;
+  font-size: large;
+}
