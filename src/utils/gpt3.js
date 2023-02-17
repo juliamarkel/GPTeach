@@ -2,8 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 export async function callGPT3(myPrompt, onResponse) {
 	const configuration = new Configuration({
-		// TODO: use env vars
-		/* insert API key */
+		apiKey: process.env.REACT_APP_GPT_KEY,
 	});
 	const openai = new OpenAIApi(configuration);
 
