@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "sed -i s/process.env.REACT_APP_GPT_KEY/${REACT_APP_GPT_KEY}/g gpt3.js && react-scripts build",
+    "build": "sed -i s/process.env.REACT_APP_GPT_KEY/${REACT_APP_GPT_KEY}/g src/utils/gpt3.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "patch-package"
