@@ -1,0 +1,133 @@
+# Steven G. Opferman | steven.g.opferman@gmail.com
+# My personal template for .gitignore files, because I'm lazy :P
+# Adapted from: https://github.com/github/gitignore
+# Delete irrelevant entries as appropriate
+####################################################################
+
+
+
+########################### Node ###########################
+# Optional npm cache directory
+.npm/
+# Optional eslint cache
+.eslintcache
+# Node
+node_modules/
+# React
+compiled/
+# Expo (React Native)
+.expo/
+
+
+############################## Create React App #############################
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+########################## Python ##########################
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+########################## SASS ##########################
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+
+########################## Jupyter Notebooks ##########################
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# IPython
+profile_default/
+ipython_config.py
+
+
+########################## Android ##########################
+# Local configuration file (sdk path, etc)
+local.properties
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+
+########################## Java ##########################
+# Compiled class file
+*.class
+
+
+########################## C++ ##########################
+# Compiled file
+*.o
+
+
+##################################################################################################################
+# The below are pretty universal, so you probably want to keep them for all projects.
+
+# Log files
+*.log
+*.tmp
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+########################## Linux ##########################
+*~
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+########################## macOS ##########################
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
