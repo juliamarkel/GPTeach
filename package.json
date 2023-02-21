@@ -9,6 +9,7 @@
     "bootstrap": "^4.6.2",
     "env-cmd": "^10.1.0",
     "firebase": "^9.16.0",
+    "formik": "^2.2.9",
     "lib0": "^0.2.60",
     "openai": "^3.1.0",
     "patch-package": "^6.5.1",

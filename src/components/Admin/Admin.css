@@ -1,0 +1,11 @@
+.adminPage {
+	padding: 3%;
+}
+
+.adminPage ul {
+	list-style: none;
+}
+
+.adminPage ul label input {
+	margin-right: 7px;
+}
