@@ -2,8 +2,6 @@
 
 ## Paper
 
-EdArXiv Preprint: <https://edarxiv.org/r23bu/>
-
 When conducting the experiments, we used the following:
 
 ### Learning Goals
