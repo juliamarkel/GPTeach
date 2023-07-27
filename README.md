@@ -1,6 +1,7 @@
 # GPTeach: Teacher Training Tool App
 
 ## Paper
+Link to research paper: https://juliamarkel.github.io/papers/GPTeach_L@S.pdf
 
 When conducting the experiments, we used the following:
 
